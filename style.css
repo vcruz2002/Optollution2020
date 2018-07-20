@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+    font-family:sans-serif;
+}
+h1{
+    text-align: center;
+    font-family:sans-serif;
+    color: dodgerblue;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color:dodgerblue;
+}
+
+.active {
+    background-color:lightgray;
+}
+p{
+    padding:1em;
+    margin:1em;
+    font-size: 25px;
+}
+.leadership{
+    transform: rotate(90deg);
+    border:5px solid dodgerblue;
+    border-radius:20em;
+}
+.leadership1{
+    border:5px solid dodgerblue;
+    border-radius: 20em;
+}
+footer{
+    padding:1em;
+    margin: 1em;
+}
+section{
+    float:left;
+}
+#undrabt{
+    margin-top: 3em;
+    float:inherit;
+}
+P{
+    float:right;
+}
+#jumana{
+    margin-right: 10em;
+}
+#button{
+    float:auto;
+}
+video{
+    float:right;
+    padding-top: 3em;
+    margin-right: 2em;
+}
+#left{
+    float:left;
+    width:600px;
+}
+/*product*/
+
+#back{
+    float:left;
+    width:600px;
+}
+#segregatedpollution{
+    float:left;
+    width:600px;
+    padding-top:2em;
+}
+    
+}
+////////////////////
+///////////////////
+* {
+  margin: 0;
+}
+
+#container, html, body {
+  width: 100%; 
+  height: 100%;
+}
+
+#container {
+  float: left;
+  width: 100%;
+}
+#tableWithData {
+  display: none;
+}
